@@ -1,0 +1,58 @@
+@media (max-width: 1200px) {
+    body {
+        background-color: rgb(218, 194, 151);
+    }
+
+    .fundo-video {
+        display: none;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px;
+    }
+
+    .container .luffy {
+        max-width: 45%;
+    }
+
+    .container .informacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .descricao {
+        color: rgb(46, 95, 155);
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .cabecalho nav li a {
+        color: white;
+    }
+
+    .cabecalho nav li a:hover {
+        background-color: rgb(46, 95, 155);
+    }
+
+    .container .botao-assistir {
+        background-color: rgb(46, 95, 155);
+        color: #ffffff;
+    }
+}
+
+@media (max-width: 500px) {
+    .cabecalho {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container .imagem-titulo {
+        max-width: 75%;
+    }
+
+}
